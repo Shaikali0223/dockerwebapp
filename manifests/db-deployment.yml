@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: shaikmustafa/devopsapp:dbimage
+          image: shaikali0223/db:v1
           ports:
             - containerPort: 3306
       imagePullSecrets:
