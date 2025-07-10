@@ -18,7 +18,8 @@ spec:
           image: shaikali0223/db:v1
           ports:
             - containerPort: 3306
-
+      imagePullSecrets:
+        - name: flm
 
 
 
