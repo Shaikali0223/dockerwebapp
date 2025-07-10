@@ -18,6 +18,8 @@ spec:
           image: shaikali0223/app:v1
           ports:
             - containerPort: 8080
+      imagePullSecrets:
+        - name: flm
 
 
 
